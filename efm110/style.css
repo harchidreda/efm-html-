@@ -1,0 +1,107 @@
+header h1{
+    font-family: sans-serif;
+    color: rgb(3, 3, 8);
+    margin-left: 3vw;
+}
+nav ul li a{
+    color: rgb(221,221,221);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(104,24,231);
+    text-decoration: underline;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: start;
+    
+}
+header img{
+    margin-left: 3vw;
+}
+nav{
+    background-color: rgb(27, 27, 49);
+    border-radius:5px ;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vw 0;
+}
+
+input:focus{
+background-color: rgb(47, 47, 98);
+color: white;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(37, 37, 78);
+    border-radius:5px ;
+    padding: 20px;
+
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    
+    text-decoration: underline;
+}
+
+footer a:last-of-type{
+    margin-left: 2vw;
+}
+
+.object{
+    padding: 2vw ;
+    margin: 3vw 0;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    padding: 2vw;
+    margin: 3vw 0;
+    
+    
+    
+}
+
+.object:hover {
+    
+    border: 2px solid rgb(38, 38, 87);
+    border-radius: 20px;
+    background-color: rgb(223,223,223);
+    
+}
+
+.form:hover {
+    border: 2px solid rgb(42, 42, 99);
+    border-radius: 20px;
+    background-color: rgb(223,223,223);
+}
+
+
+
+
+
+
+@media (max-width:700px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}

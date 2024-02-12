@@ -1,0 +1,68 @@
+
+.header-main{
+    margin-left: 2vw ;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-around;
+
+
+}
+
+nav{
+    margin:3vw 1.5vw ;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+nav ul a:hover{
+    text-decoration: underline ;
+    color:green;
+}
+main{
+    display:flex;
+    
+    margin:5vw 2vw;
+}
+
+.img-title{
+    display: flex;
+}
+
+.logiciel-info {
+    width: 30vw;
+    margin: 2vw 2vw;
+    padding: 4em;
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px gray
+}
+section{
+    margin-left: 2vw;
+    font-size: 10vw;
+}
+section button:first-child{
+    width:30vw;
+    height:3vw;
+}
+section button:last-child {
+    width:15vw;
+    height:3vw;
+}
+@media (max-width:576px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
